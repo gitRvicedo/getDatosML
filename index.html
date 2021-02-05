@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Obtener Items segun Vendedor y lugar</h3>
+    <div class="container">
+        <form id="form">
+            <div class="row">
+                <div class="col">
+                    <label for="inpSeller">Vendedor:
+                        <input type="text" name="inpSeller" id="inpSeller" placeholder="Seller" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="inpSite">Lugar:
+                        <input type="text" name="inpSite" id="inpSite" placeholder="Site" onkeyup="javascript:this.value=this.value.toUpperCase();" required>
+                    </label>
+                </div>
+                <div class="col"><button>BUSCAR</button></div>
+            </div>
+        </form>
+    </div>
+    <div class="MostrarDatos"></div>
+    
+     
+    
+
+    <Script src="index.js"></Script>
+</body>
+</html>
